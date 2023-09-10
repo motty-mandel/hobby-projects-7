@@ -1,7 +1,7 @@
 const express = require('express');
-const app = express();
 const path = require('path');
-const PORT = 3001
+const PORT = 3001;
+const app = express();
 
 app.use(express.static('public'));
 
@@ -10,5 +10,5 @@ app.get('/notes', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`App listening at port ${PORT}`)
+    console.log(`App listening at port ${PORT}`);
 });
