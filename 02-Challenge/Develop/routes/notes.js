@@ -7,25 +7,19 @@ nR.get('/', (req, res) =>
 );
 
 nR.post('/', (req, res) => {
-    // // Destructuring assignment for the items in req.body
-    // const { title, text } = req.body;
+    // Destructuring assignment for the items in req.body
+    const { title, text } = req.body;
 
-    // // If all the required properties are present
-    // if (req.body) {
-    //     // Variable for the object we will save
-    //     const newNote = {
-    //         title,
-    //         text,
-    //     };
+    // If all the required properties are present
+    if (req.body) {
+        // Variable for the object we will save
+        const newNote = {
+            title,
+            text,
+        };
 
-    //     readAndAppend(newNote, './db/db.json');
-
-    //     res.json(response);
-    // } else {
-    //     res.json('Error in posting note');
-    // }
-    const {title, text} = req.body;
-    console.log(req.body);
+        readAndAppend(newNote, './db/db.json');
+    }
 });
 
 module.exports = nR;
