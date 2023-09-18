@@ -1,4 +1,4 @@
-# hobby-projects-7
+# Note taker app
 
 ## Table of contents
 [Description](#description):
