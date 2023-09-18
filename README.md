@@ -9,7 +9,7 @@
 ## Installation
 Use npm i in the terminal
 ```bash
-mpm i
+npm i
 ```
 
 ## Description
