@@ -6,6 +6,12 @@
 [Credits](#credits):
 [License](#license):
 
+## Installation
+Use npm i in the terminal
+```bash
+mpm i
+```
+
 ## Description
 This is a note taker app that lets you add and delete notes to help you keep track of
 all your todo's.
