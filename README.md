@@ -1,7 +1,14 @@
 # hobby-projects-7
 
+## Table of contents
+[Description](#description):
+[Usage](#usage):
+[Credits](#credits):
+[License](#license):
+
 ## Description
-This is a note taker app that lets you keep track of your todo's
+This is a note taker app that lets you add and delete notes to help you keep track of
+all your todo's.
 
 ## Usage
 This project can be used as intended as well as to dissect and take code snippets if need be.
